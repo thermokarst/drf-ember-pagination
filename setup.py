@@ -8,7 +8,7 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='drf-ember-pagination',
+    name='drf_ember_pagination',
     version='0.1.0',
     description='Custom pagination class for ember applications',
     long_description=readme,
