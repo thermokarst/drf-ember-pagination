@@ -1,1 +1,1 @@
-from pagination import EmberPageNumberPagination
+from .pagination import EmberPageNumberPagination
