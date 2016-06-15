@@ -79,7 +79,7 @@ def _get_page_links(page_numbers, current):
     return page_links
 
 
-class CustomPageNumberPagination(pagination.PageNumberPagination):
+class EmberPageNumberPagination(pagination.PageNumberPagination):
     page_size_query_param = 'page_size'
 
     def get_paginated_response(self, data):
